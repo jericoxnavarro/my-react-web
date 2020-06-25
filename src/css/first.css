@@ -1,6 +1,5 @@
 .main-content {
   padding: 0;
-  padding-top: 70px;
   height: 100vh;
 
   background-image: url(../bg.jpg);
@@ -101,7 +100,8 @@
 }
 
 .btn-github {
-  margin: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-top: 5px;
   width: 50px;
   height: 50px;
@@ -109,14 +109,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 45px;
+  transition: 0.3s;
 }
 
 .btn-github:hover {
-  background-size: 50px;
+  background-image: url(../github_black.png);
+  background-size: 55px;
 }
 
 .btn-facebook {
-  margin: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-top: 5px;
   width: 50px;
   height: 50px;
@@ -124,14 +127,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40px;
+  transition: 0.3s;
 }
 
 .btn-facebook:hover {
-  background-size: 45px;
+  background-image: url(../facebook_blue.png);
+  background-size: 55px;
 }
 
 .btn-instagram {
-  margin: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-top: 5px;
   width: 50px;
   height: 50px;
@@ -139,14 +145,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50px;
+  transition: 0.3s;
 }
 
 .btn-instagram:hover {
-  background-size: 55px;
+  background-image: url(../instagram_pink.png);
+  background-size: 60px;
 }
 
 .btn-twitter {
-  margin: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-top: 5px;
   width: 50px;
   height: 50px;
@@ -154,14 +163,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40px;
+  transition: 0.3s;
 }
 
 .btn-twitter:hover {
-  background-size: 45px;
+  background-image: url(../twitter_blue.png);
+  background-size: 60px;
 }
 
 .btn-spotify {
-  margin: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-top: 5px;
   width: 50px;
   height: 50px;
@@ -169,10 +181,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40px;
+  transition: 0.3s;
 }
 
 .btn-spotify:hover {
-  background-size: 45px;
+  background-image: url(../spotify_green.png);
+  background-size: 55px;
 }
 
 @media only screen and (max-width: 800px) {

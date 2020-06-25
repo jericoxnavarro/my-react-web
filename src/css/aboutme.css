@@ -1,0 +1,68 @@
+.aboutme-main {
+  width: 100%;
+  height: 80vh;
+  background-color: #5bb0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.aboutme-box {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  font-family: "Passion One", cursive;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  color: white;
+  padding-top: 20px;
+}
+
+.text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.my-info {
+  font-family: "Montserrat", sans-serif;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.pic {
+  background-image: url(../mypic.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 65%;
+  height: 60%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 6px solid #476098;
+}
