@@ -1,0 +1,239 @@
+:root {
+  font-size: 16px;
+  font-family: sans-serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+.toolbar {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0px;
+  padding-left: 130px;
+  padding-right: 200px;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  height: 100%;
+}
+
+.navbar-nav1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  height: 100%;
+}
+
+.nav-item {
+  text-align: center;
+  width: 90px;
+  height: 100%;
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #476098;
+  font-weight: 100;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #96acdb;
+}
+
+.navbar-nav:last-child {
+  margin-left: auto;
+}
+
+.logo-box {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo1 {
+  font-family: "Passion One", cursive;
+  font-style: normal;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 30px;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #476098;
+  background-image: linear-gradient(
+    45deg,
+    #476098 16.666%,
+    #e16541 16.666%,
+    #a7489b 33.333%,
+    #a7489b 33.333%,
+    #476098 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.logo1:hover {
+  text-decoration: none;
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+  0% {
+    background-size: 100%;
+  }
+  80% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 650%;
+  }
+}
+
+.btn-item {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.btn-item:hover {
+  padding: 9px;
+  cursor: pointer;
+}
+
+.paypal-btn {
+  border: 2px solid;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #2997d8;
+}
+
+.paypal-btn:hover {
+  border-color: #253b80;
+}
+
+.paypal-icon {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.paypal-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #2997d8;
+}
+
+.paypal-link:hover {
+  text-decoration: none;
+  color: #253b80;
+}
+
+.mobile-nav {
+  background-color: white;
+  height: 8vh;
+  width: 90vw;
+  position: fixed;
+  right: 5vw;
+  bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: none;
+  transition: 0.3s;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .mobile-nav {
+    display: flex !important;
+  }
+  .navbar-nav {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0px;
+  }
+}
