@@ -1,0 +1,56 @@
+.educ-main {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.educ {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.education-text {
+  font-family: "Passion One", cursive;
+  font-size: 50px;
+}
+
+.content-educ {
+  font-family: "Montserrat", sans-serif;
+  width: 70%;
+  height: 100%;
+  padding: 50px;
+}
+
+.schools {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.course {
+  font-style: italic;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #476098;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.about-des {
+  font-style: normal;
+}
