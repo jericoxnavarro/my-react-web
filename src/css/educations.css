@@ -1,6 +1,6 @@
 .educ-main {
   background-color: white;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,6 +24,7 @@
 .education-text {
   font-family: "Passion One", cursive;
   font-size: 50px;
+  margin-top: 20px;
   background-color: #476098;
   background-image: linear-gradient(
     45deg,
@@ -99,6 +100,11 @@
   border-top: 1px solid rgb(161, 158, 158);
 }
 
+.seperator-top {
+  border-top: 1px solid rgb(161, 158, 158);
+  width: 70%;
+}
+
 .h2-educ1 {
   border-bottom: 5px solid #5bb0e0;
   width: 130px;
@@ -167,4 +173,25 @@
 
 .mysql {
   color: #1b91ac;
+}
+
+@media only screen and (max-width: 800px) {
+  .content-educ {
+    width: 95%;
+    height: 100%;
+    padding: 0px;
+  }
+
+  .schools {
+    margin-top: 20px;
+  }
+  .course {
+    font-size: 13px;
+    text-align: center;
+  }
+  .dot {
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

@@ -6,6 +6,7 @@ const Educations = () => {
     <>
       <div className="educ-main">
         <div className="educ">
+          <div className="seperator-top"></div>
           <h2 className="education-text">Educations</h2>
           <div className="content-educ">
             <h2 className="h2-educ">Senior High</h2>
@@ -52,6 +53,7 @@ const Educations = () => {
               <span className="css"> CSS</span>,{" "}
               <span className="mysql">MySQL</span> in that project.
             </span>
+            <div className="seperator"></div>
           </div>
         </div>
       </div>

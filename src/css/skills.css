@@ -1,0 +1,331 @@
+.skills-main {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  padding-top: 70px;
+}
+
+.skills-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.education-text {
+  font-family: "Passion One", cursive;
+  font-size: 50px;
+  margin-top: 20px;
+  background-color: #476098;
+  background-image: linear-gradient(
+    45deg,
+    #476098 16.666%,
+    #e16541 16.666%,
+    #a7489b 33.333%,
+    #a7489b 33.333%,
+    #476098 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.education-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+@keyframes rainbow-text-simple-animation {
+  0% {
+    background-size: 100%;
+  }
+  80% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 650%;
+  }
+}
+
+.skills-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: rgb(37, 37, 37);
+}
+
+.bars {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.boxs {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.bar {
+  background: rgb(49, 53, 54);
+  background: rgb(49, 53, 54);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 53, 54, 1) 0%,
+    rgba(177, 185, 194, 1) 68%
+  );
+  width: 90%;
+  height: 8%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.bar:hover {
+  height: 9%;
+  width: 92%;
+}
+
+.percent-git {
+  height: 100%;
+  width: 60%;
+  margin-right: 10px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-git {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-reactjs {
+  height: 100%;
+  width: 55%;
+  margin-right: 10px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-reactjs {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-javascript {
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+  height: 100%;
+  width: 85%;
+  margin-right: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-javascript {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-php {
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  height: 100%;
+  width: 68%;
+  margin-right: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-php {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-java {
+  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  height: 100%;
+  width: 90%;
+  margin-right: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-java {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-html {
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+  height: 100%;
+  width: 72%;
+  margin-right: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-html {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-css {
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  height: 100%;
+  width: 67%;
+  margin-right: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-css {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-nodejs {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+  height: 100%;
+  width: 38%;
+  margin-right: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-nodejs {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-mysql {
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  height: 100%;
+  width: 35%;
+  margin-right: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-mysql {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.percent-ubuntu {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+  height: 100%;
+  width: 43%;
+  margin-right: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent-text-ubuntu {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+@media only screen and (max-width: 800px) {
+  .bar {
+    height: 5%;
+  }
+  .bar:hover {
+    height: 6%;
+  }
+  .skills-item {
+    font-size: 15px;
+  }
+}

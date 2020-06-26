@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import First from "./components/First";
 import Aboutme from "./components/Aboutme";
 import Educations from "./components/Educations";
+import Skills from "./components/Skills";
 import "./css/app.css";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <Header />
         <First />
         <Aboutme />
+        <Skills />
         <Educations />
       </div>
     </>
