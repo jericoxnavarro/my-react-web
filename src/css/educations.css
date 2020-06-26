@@ -6,23 +6,71 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
 .educ {
   padding: 10px;
-  width: 100%;
+  width: 96%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding-top: 50px;
 }
 
 .education-text {
   font-family: "Passion One", cursive;
   font-size: 50px;
+  background-color: #476098;
+  background-image: linear-gradient(
+    45deg,
+    #476098 16.666%,
+    #e16541 16.666%,
+    #a7489b 33.333%,
+    #a7489b 33.333%,
+    #476098 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.education-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+@keyframes rainbow-text-simple-animation {
+  0% {
+    background-size: 100%;
+  }
+  80% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 650%;
+  }
 }
 
 .content-educ {
@@ -30,15 +78,49 @@
   width: 70%;
   height: 100%;
   padding: 50px;
+  color: rgb(37, 37, 37);
+}
+
+.h2-educ {
+  border-bottom: 5px solid #5bb0e0;
+  width: 200px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.h2-educ:hover {
+  border-bottom: 5px solid #77c5f1;
+}
+
+.seperator {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 1px solid rgb(161, 158, 158);
+}
+
+.h2-educ1 {
+  border-bottom: 5px solid #5bb0e0;
+  width: 130px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  transition: 0.2s;
+}
+
+.h2-educ1:hover {
+  border-bottom: 5px solid #77c5f1;
 }
 
 .schools {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+  color: rgb(37, 37, 37);
 }
 .course {
   font-style: italic;
+  color: rgb(37, 37, 37);
 }
 
 .dot {
@@ -53,4 +135,36 @@
 
 .about-des {
   font-style: normal;
+  color: rgb(37, 37, 37);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.java {
+  color: #e60c0f;
+}
+
+.android {
+  color: #3ac274;
+}
+
+.php {
+  color: #abaed0;
+}
+
+.javascript {
+  color: #e9d54d;
+}
+
+.html {
+  color: #e96228;
+}
+
+.css {
+  color: #00a7de;
+}
+
+.mysql {
+  color: #1b91ac;
 }
