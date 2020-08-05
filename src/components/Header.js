@@ -2,6 +2,7 @@ import React from "react";
 import "../css/header.css";
 
 const Header = () => {
+  function menu() {}
   return (
     <>
       <header className="toolbar">
@@ -9,6 +10,11 @@ const Header = () => {
           <div className="logo-box">
             <a className="logo1" href="/">
               <span className="link-text">echo</span>
+            </a>
+          </div>
+          <div className="mob-nav">
+            <a className="logo1" href="/">
+              <div className="menu-icon"></div>
             </a>
           </div>
           <ul className="navbar-nav">

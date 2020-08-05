@@ -25,6 +25,7 @@
   font-family: "Passion One", cursive;
   font-size: 50px;
   margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #476098;
   background-image: linear-gradient(
     45deg,
@@ -184,6 +185,7 @@
 
   .schools {
     margin-top: 20px;
+    font-size: 13px;
   }
   .course {
     font-size: 13px;
@@ -193,5 +195,15 @@
     width: 20px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .h2-educ {
+    font-size: 25px;
+    width: 160px;
+  }
+
+  .h2-educ1 {
+    font-size: 25px;
+    width: 105px;
   }
 }

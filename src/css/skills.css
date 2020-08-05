@@ -75,6 +75,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   color: rgb(37, 37, 37);
+  margin-bottom: 11px;
 }
 
 .bars {
@@ -105,7 +106,7 @@
     rgba(177, 185, 194, 1) 68%
   );
   width: 90%;
-  height: 8%;
+  height: 5%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -114,8 +115,13 @@
 }
 
 .bar:hover {
-  height: 9%;
+  height: 6%;
   width: 92%;
+}
+
+.about-skill {
+  margin-bottom: 10px;
+  padding-right: 25px;
 }
 
 .percent-git {
@@ -327,5 +333,23 @@
   }
   .skills-item {
     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .skills-item {
+    font-size: 20px;
+  }
+  .about-skill {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .skills-item {
+    font-size: 15px;
+  }
+  .about-skill {
+    font-size: 9px;
   }
 }
